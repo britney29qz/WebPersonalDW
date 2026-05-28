@@ -11,7 +11,7 @@
         header("Location: contacto.php?error=correo_invalido");
         exit();
     }
-    //Prepara consulta
+    //Preparar consulta
     $stmt = $conexion -> prepare("INSERT INTO contactos (nombre, correo, mensaje) VALUES (?, ?, ?)");
     //Vincular parámetros
     $stmt -> bind_param("sss", $nombre, $correo, $mensaje);

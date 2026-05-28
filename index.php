@@ -27,7 +27,7 @@
         <!--Menú para desktop-->
         <nav class="hidden lg:flex gap-30 mr-20 text-neutral-700 text-lg">
             <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
-            <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Servicios</a>
+            <a href="login.php" class="hover:text-blue-900 transition-colors duration-300">Login</a>
             <a href="contacto.php" class="hover:text-blue-900 transition-colors duration-300">Contacto</a>
         </nav>
         <!--Botón hamburgesa para móviles-->
@@ -40,7 +40,7 @@
         <nav id="menuMovil" class="hidden lg:hidden absolute top-25 left-0 w-full bg-white">
             <div class="flex flex-col items-center gap-6 py-6 text-neutral-700 text-lg">
                 <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
-                <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Servicios</a>
+                <a href="login.php" class="hover:text-blue-900 transition-colors duration-300">Login</a>
                 <a href="contacto.php" class="hover:text-blue-900 transition-colors duration-300">Contacto</a>    
             </div>
         </nav>
@@ -49,7 +49,7 @@
     <section class="min-h-screen flex bg-white">
         <div class="max-w-7xl mx-auto px-5 md:px-10 py-20 w-full">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
-                <!--Parte izquiera para información-->
+                <!--Parte izquierda para información-->
                 <article class="order-2 lg:order-1 py-3">
                     <h2 class="font-bodoni text-6xl md:text-7xl font-bold text-blue-950 mb-3 tracking-wide">Britney</h2>
                     <h2 class="font-bodoni text-6xl md:text-7xl font-bold text-blue-950 mb-6 tracking-wide">Quiroz Brito</h2>
@@ -133,10 +133,10 @@
             </div>
         </div>
     </section>
+    <!--Footer-->
     <footer class="h-30 w-full bg-slate-800">
-        <p class="text-center text-white pt-11">© 2026 Britney Quiroz. Todos los derechos reservados.</p>
+        <p class="text-center text-white pt-11">© 2026 Webney. Todos los derechos reservados.</p>
     </footer>
-
 
     <script>
         //Script para desplegar el menú móvil
@@ -147,6 +147,5 @@
             menuMovil.classList.toggle('hidden');
         });
     </script>
-    
 </body>
 </html>

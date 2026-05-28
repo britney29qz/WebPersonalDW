@@ -46,7 +46,7 @@
         <!--Menú para desktop-->
         <nav class="hidden lg:flex gap-30 mr-20 text-neutral-700 text-lg">
             <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
-            <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Servicios</a>
+            <a href="login.php" class="hover:text-blue-900 transition-colors duration-300">Login</a>
             <a href="contacto.php" class="hover:text-blue-900 transition-colors duration-300">Contacto</a>
         </nav>
         <!--Botón hamburgesa para móviles-->
@@ -59,13 +59,14 @@
         <nav id="menuMovil" class="hidden lg:hidden absolute top-25 left-0 w-full bg-white">
             <div class="flex flex-col items-center gap-6 py-6 text-neutral-700 text-lg">
                 <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
-                <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Servicios</a>
+                <a href="login.php" class="hover:text-blue-900 transition-colors duration-300">Login</a>
                 <a href="contacto.php" class="hover:text-blue-900 transition-colors duration-300">Contacto</a>    
             </div>
         </nav>
     </header>
     <!--Sección de contacto-->
     <section class="min-h-screen py-25">
+        <!--Inserción de alertas-->
         <?php if($mensaje_exito): ?>
             <div id="alertaExito" class="fixed top-30 right-5 border border-green-600 text-green-700 bg-white px-6 py-4 tracking-wide z-50 shadow-xl transition-all duration-500" role="alert">
                 Mensaje enviado correctamente.
@@ -108,17 +109,14 @@
                             Enviar Mensaje
                         </button>
                     </form>
-
                 </article>
             </div>
-
         </div>
-
     </section>
+    <!--Footer-->
     <footer class="h-30 w-full bg-slate-800">
-        <p class="text-center text-white pt-11">© 2026 Britney Quiroz. Todos los derechos reservados.</p>
+        <p class="text-center text-white pt-11">© 2026 Webney. Todos los derechos reservados.</p>
     </footer>
-
 
     <script>
         //Script para desplegar el menú móvil
@@ -153,10 +151,6 @@
                 }, 500);
             }, 3000);
         }
-
-
-
     </script>
-    
 </body>
 </html>
