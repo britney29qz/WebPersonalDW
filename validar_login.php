@@ -13,7 +13,7 @@
     $resultado = $stmt -> get_result();
     $admin = $resultado -> fetch_assoc();
     //Validar usuario
-    if($admin && password_verify($clave, $admin['contraseña'])) {
+    if($admin && password_verify($clave, $admin['clave'])) {
         $_SESSION['admin'] = $admin['usuario'];
         header("Location: listar.php"); //Mostrar la página de lista si todo está correcto
         exit();

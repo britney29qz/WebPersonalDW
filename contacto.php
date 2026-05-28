@@ -42,7 +42,7 @@
 <body class="bg-white">
     <!--Header-->
     <header class="w-full h-30 bg-white flex items-center justify-between px-8 relative z-50">
-        <img src="img/logoPersonal3.png" alt="Logo Personal" class="w-20 ml-20">
+        <img src="img/logoPersonal3.png" alt="Logo Personal" class="w-20 transition-all duration-300">
         <!--Menú para desktop-->
         <nav class="hidden lg:flex gap-30 mr-20 text-neutral-700 text-lg">
             <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
@@ -85,7 +85,7 @@
                     <div class="w-20 h-[2px] bg-amber-600 mb-10"></div>
                     <p class="text-slate-600 text-lg leading-relaxed mb-6">
                         Si estás interesado en comunicarte conmigo para colaborar en proyectos, compartir ideas 
-                        o simplemente dialogar sobre diseño y desarrollo web, puede enviarme un mensaje mediante 
+                        o simplemente dialogar sobre diseño y desarrollo web, puedes enviarme un mensaje mediante 
                         el presente formulario.
                     </p>
                     <p class="text-slate-500 leading-relaxed">

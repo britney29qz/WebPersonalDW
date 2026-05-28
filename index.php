@@ -23,7 +23,7 @@
 <body class="bg-white">
     <!--Header-->
     <header class="w-full h-30 bg-white flex items-center justify-between px-8 relative z-50">
-        <img src="img/logoPersonal3.png" alt="Logo Personal" class="w-20 ml-20">
+        <img src="img/logoPersonal3.png" alt="Logo Personal" class="w-20 transition-all duration-300">
         <!--Menú para desktop-->
         <nav class="hidden lg:flex gap-30 mr-20 text-neutral-700 text-lg">
             <a href="index.php" class="hover:text-blue-900 transition-colors duration-300">Inicio</a>
