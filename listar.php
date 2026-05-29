@@ -46,22 +46,22 @@
                 <!--Encabezados-->
                 <thead class="bg-slate-200">
                     <tr class="text-left">
-                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr-b border-slate-200">ID</th>
-                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr-b border-slate-200">Nombre</th>
-                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr-b border-slate-200">Correo</th>
-                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr-b border-slate-200">Mensaje</th>
-                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr-b border-slate-200">Fecha de Registro</th>
+                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr border-slate-200">ID</th>
+                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr border-slate-200">Nombre</th>
+                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr border-slate-200">Correo</th>
+                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr border-slate-200">Mensaje</th>
+                        <th class="px-6 py-4 text-slate-700 font-semibold bordedr border-slate-200">Fecha de Registro</th>
                     </tr>
                 </thead>
                 <!--Contenido-->
                 <tbody>
                     <?php while($fila = $consulta -> fetch_assoc()): ?>
                         <tr class="hover:bg-slate-50 transition duration-300">
-                            <td><?= htmlspecialchars($fila['id'])?></td>
-                            <td><?= htmlspecialchars($fila['nombre'])?></td>
-                            <td><?= htmlspecialchars($fila['correo'])?></td>
-                            <td><?= htmlspecialchars($fila['mensaje'])?></td>
-                            <td><?= htmlspecialchars($fila['fecha_registro'])?></td>
+                            <td class="border border-slate-200 px-6 py-4 text-slate-600"><?= htmlspecialchars($fila['id'])?></td>
+                            <td class="border border-slate-200 px-6 py-4 text-slate-600"><?= htmlspecialchars($fila['nombre'])?></td>
+                            <td class="border border-slate-200 px-6 py-4 text-slate-600"><?= htmlspecialchars($fila['correo'])?></td>
+                            <td class="border border-slate-200 px-6 py-4 text-slate-600"><?= htmlspecialchars($fila['mensaje'])?></td>
+                            <td class="border border-slate-200 px-6 py-4 text-slate-600"><?= htmlspecialchars($fila['fecha_registro'])?></td>
                         </tr>
                     <?php endwhile; ?>
                 </tbody>
