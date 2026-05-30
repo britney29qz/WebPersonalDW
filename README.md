@@ -57,8 +57,8 @@ Y, de manera general, el sistema nos brida:
    **Contraseña:** admin369
    
 3. Presione el botón **Ingresar**.
-4. Una vez autenticado, podrá visualizar los mensajes enviados mediante el formulario de contacto (algunos mensajes fueron borrados porque eran solo de prueba y
-   solo extendían más la lista, por eso hay una diferencia en el ID).
+4. Una vez autenticado, podrá visualizar los mensajes enviados mediante el formulario de contacto (algunos mensajes fueron borrados porque eran solo de prueba
+   antes del despliegue a la web y solo extendían más la lista, por eso hay una diferencia en el ID).
 6. Para regresar al sitio principal, utilice la opción **Volver al Inicio** disponible en la parte inferior de la página.
 
 ---
