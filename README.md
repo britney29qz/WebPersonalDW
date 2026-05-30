@@ -67,4 +67,4 @@ Y, de manera general, el sistema nos brida:
 
 El proyecto se encuentra desplegado en:
 
-[Webney](https://webney.infinityfreeapp.com/index.php)
+[Webney](https://webney.infinityfreeapp.com/)
