@@ -97,13 +97,13 @@
                     <form action="enviar_contacto.php" method="POST" class="flex flex-col gap-5">
                         <!--Nombre-->
                         <label class="block text-slate-700 font-medium" for="nombre">Nombre</label>
-                        <input class="w-full border border-slate-400 rounded-2xl px-5 py-4 outline-none focus:border-amber-600 transition duration-300" type="text" name="nombre" required>
+                        <input class="w-full border border-slate-400 rounded-2xl px-5 py-4 outline-none focus:border-amber-600 transition duration-300" type="text" name="nombre" minlength="3" required>
                         <!--Correo-->
                         <label class="block text-slate-700 font-medium" for="correo">Correo</label>
                         <input class="w-full border border-slate-400 rounded-2xl px-5 py-4 outline-none focus:border-amber-600 transition duration-300" type="email" name="correo" required>
                         <!--Mensaje-->
                         <label class="block text-slate-700 font-medium" for="mensaje">Mensaje</label>
-                        <textarea class="w-full border border-slate-400 rounded-2xl px-5 py-4 outline-none resize-none focus:border-amber-600 transition duration-300" name="mensaje" rows='6' minlength="10" required id=""></textarea>
+                        <textarea class="w-full border border-slate-400 rounded-2xl px-5 py-4 outline-none resize-none focus:border-amber-600 transition duration-300" name="mensaje" rows='6' minlength="10" required></textarea>
                         <!--Botón para enviar el formulario-->
                         <button type="submit" class="border border-slate-500 hover:border-amber-600 hover:text-amber-700 transition duration-300 px-8 py-4 text-sm tracking-wide uppercase text-slate-700 cursor-pointer">
                             Enviar Mensaje
